@@ -1,0 +1,22 @@
+Pressing Q toggles the automatic camera track, cycling around the scene and then doing a topdown view
+
+Pressing T toggles the track of the light causing shadows on the scene. 
+This light loops over and under the scene like a daylight cycle. T will pause this
+
+Pressing B will toggle the full scene gaussian blur. This has 10 passes.
+
+
+Bandicam caused a few issues with recording as well as Ness being ness and not accepting files / doing it slowly
+
+
+Scene contains the following features:
+Deferred rendering
+Multiple point lights
+Shadow mapping on whole scene + models
+Skeletal animation with shadow mapping and reflections to point lights
+All models minus the heightmap and water are in a scene node list
+Frustum culling for buildings and armoured people
+Texture stencils combining diffuse and normal maps
+Camera tracked skybox with accurate reflections in the water in the scene.
+Automated camera movement with rotation
+Whole screen gaussian blur (from tutorial)
